@@ -1,20 +1,48 @@
-# Numerical Analysis and Custom Floating-Point Labs
+\# 🧮 Numerical Analysis \& Custom Floating-Point Arithmetic in C
 
-This repository contains C implementations of foundational numerical analysis methods. The project is split into two modules:
 
-## 1. Custom Floating-Point Simulator (/custom-float)
 
-- finale.c: An interactive floating-point calculator implementing normalized base-10 scientific notation arithmetic.
-- FLOTTANT.c: Implements the core normalization algorithm.
-- SOMMEFL.c & DIFFL.c & MULFL.c & DIVFL.c: Arithmetic operators for normalized decimal floats.
+This repository contains low-level C implementations of foundational numerical analysis methods. The project explores the physical limitations of machine precision by building a custom base-10 floating-point emulator from scratch, alongside a comparative analysis of non-linear root-finding algorithms.
 
-## 2. Non-Linear Root-Finding Solvers (/root-finders)
 
-- Bissection.c: Solves non-linear equations using bracketed interval halving.
-- la Secante.c: Approximates roots using successive secant slopes.
-- Newton-Raphson.c: Uses derivatives for rapid quadratic convergence.
-- Point Fixe.c: Reformulates equations as g(x)=x to iterate to a root.
 
-## 3. Academic Reports
+\## 📂 Repository Structure
 
-- /docs/rapport analyse.pdf: Full computational lab report (written in French).
+
+
+```text
+
+numerical-analysis-labs/
+
+├── custom-float/
+
+│   ├── FLOTTANT.c         # Core mantissa/exponent normalizer
+
+│   ├── SOMMEFL.c          # Floating-point addition
+
+│   ├── DIFFL.c            # Floating-point subtraction
+
+│   ├── MULFL.c            # Floating-point multiplication
+
+│   ├── DIVFL.c            # Floating-point division
+
+│   └── finale.c           # Interactive calculator program
+
+├── root-finders/
+
+│   ├── Bissection.c       # Interval halving method
+
+│   ├── la Sécante.c       # Secant approximation method
+
+│   ├── Newton-Raphson.c   # Derivative-based solver
+
+│   └── Point Fixe.c       # Fixed-point iteration
+
+├── docs/
+
+│   ├── rapport analyse.pdf  # Full computational lab report (Français)
+
+│   └── rapport analyse.docx # Original report document
+
+└── README.md
+
