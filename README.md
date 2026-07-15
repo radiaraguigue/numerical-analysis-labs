@@ -6,8 +6,6 @@ This repository contains C implementations of foundational numerical analysis me
 
 
 
-
-
 \## 1. Custom Floating-Point Simulator (/custom-float)
 
 
