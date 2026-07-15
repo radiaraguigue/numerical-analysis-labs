@@ -6,29 +6,37 @@ This repository contains C implementations of foundational numerical analysis me
 
 
 
-\## 1. Custom Floating-Point Simulator (`/custom-float`)
 
-\- `finale.c`: An interactive floating-point calculator implementing normalized base-10 scientific notation arithmetic.
 
-\- `FLOTTANT.c`: Implements the core normalization algorithm.
-
-\- `SOMMEFL.c` \& `DIFFL.c` \& `MULFL.c` \& `DIVFL.c`: Arithmetic operators for normalized decimal floats.
+\## 1. Custom Floating-Point Simulator (/custom-float)
 
 
 
-\## 2. Non-Linear Root-Finding Solvers (`/root-finders`)
+\- finale.c: An interactive floating-point calculator implementing normalized base-10 scientific notation arithmetic.
 
-\- `Bissection.c`: Solves non-linear equations using bracketed interval halving.
+\- FLOTTANT.c: Implements the core normalization algorithm.
 
-\- `la Sécante.c`: Approximates roots using successive secant slopes.
+\- SOMMEFL.c \& DIFFL.c \& MULFL.c \& DIVFL.c: Arithmetic operators for normalized decimal floats.
 
-\- `Newton-Raphson.c`: Uses derivatives for rapid quadratic convergence.
 
-\- `Point Fixe.c`: Reformulates equations as $g(x) = x$ to iterate to a root.
+
+\## 2. Non-Linear Root-Finding Solvers (/root-finders)
+
+
+
+\- Bissection.c: Solves non-linear equations using bracketed interval halving.
+
+\- la Sécante.c: Approximates roots using successive secant slopes.
+
+\- Newton-Raphson.c: Uses derivatives for rapid quadratic convergence.
+
+\- Point Fixe.c: Reformulates equations as g(x)=x to iterate to a root.
 
 
 
 \## 3. Academic Reports
 
-\- `/docs/rapport analyse.pdf`: Full computational lab report (written in French).
+
+
+\- /docs/rapport analyse.pdf: Full computational lab report (written in French).
 
