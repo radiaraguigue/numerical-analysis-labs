@@ -6,6 +6,10 @@ This repository contains C implementations of foundational numerical analysis me
 
 
 
+\---
+
+
+
 \## 1. Custom Floating-Point Simulator (/custom-float)
 
 
@@ -15,6 +19,10 @@ This repository contains C implementations of foundational numerical analysis me
 \- FLOTTANT.c: Implements the core normalization algorithm.
 
 \- SOMMEFL.c \& DIFFL.c \& MULFL.c \& DIVFL.c: Arithmetic operators for normalized decimal floats.
+
+
+
+\---
 
 
 
@@ -29,6 +37,10 @@ This repository contains C implementations of foundational numerical analysis me
 \- Newton-Raphson.c: Uses derivatives for rapid quadratic convergence.
 
 \- Point Fixe.c: Reformulates equations as g(x)=x to iterate to a root.
+
+
+
+\---
 
 
 
